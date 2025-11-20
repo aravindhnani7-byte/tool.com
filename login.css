@@ -38,7 +38,7 @@
 }
 
 .loginbtn {
-    height: 10vh;
+    height: 5vh;
     width: 60vw;
     border-radius: 35px;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
@@ -63,4 +63,5 @@
 }
 p{
     color:aliceblue
+
 }
