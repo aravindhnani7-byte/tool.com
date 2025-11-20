@@ -1,0 +1,28 @@
+/* Custom Styles for your page */
+
+body {
+    background-color: #f0f2f5; /* Light grey background */
+    padding-bottom: 3rem; /* Add some padding at the bottom */
+}
+
+/* Style for the main white content box */
+.main-content {
+    background-color: #ffffff;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.navbar {
+    /* You can add custom navbar styles here if you want */
+}
+
+/* Add a hover effect to the videos for fun */
+.embed-responsive {
+    transition: transform 0.2s ease-in-out;
+}
+
+.embed-responsive:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
