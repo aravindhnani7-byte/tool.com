@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Plans - AITools.com</title>
+    
+    <!-- Load Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Load Font Awesome for checkmarks and icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Link to the separated CSS file -->
+    <link rel="stylesheet" href="sub.css"> 
+</head>
+<body>
+
+    <!-- NEW: Site-wide Header/Navigation Bar -->
+    <header class="main-header">
+        <div class="nav-logo">Aitools.com</div>
+        <nav class="nav-links">
+            <!-- 'Subscribe' is active since this is the subscription page -->
+            <a href="#" class="active">Subscribe</a>
+            <a href="courses.html">Courses</a>
+            <a href="toolpage.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Page Title Section -->
+    <div class="page-title-section">
+        <h1 class="main-heading">Pricing Plans</h1>
+        <p class="sub-heading">Simple access to powerful AI tools.</p>
+    </div>
+
+    <!-- Pricing Grid Container -->
+    <div class="pricing-grid-container">
+
+        <!-- Card 1: Basic / Starter Plan -->
+        <div class="price-card starter-plan">
+            <h2>Starter</h2>
+            <p class="plan-desc">Good for beginners</p>
+            <p class="price-value">₹1,499<span class="price-period">/mo</span></p>
+            <ul class="feature-list">
+                <li class="check">
+                    <i class="fas fa-check"></i>
+                    <p>Access to <span class="semibold">3 AI Tool Categories</span></p>
+                </li>
+                <li class="check">
+                    <i class="fas fa-check"></i>
+                    <p>Basic AI Courses</p>
+                </li>
+                <li class="check">
+                    <i class="fas fa-check"></i>
+                    <p>500 Monthly Generations</p>
+                </li>
+                <li class="cross">
+                    <i class="fas fa-times"></i>
+                    <p>No ML Lab</p>
+                </li>
+            </ul>
+            <button onclick="alert('Proceeding to Checkout for Starter Plan...')" class="plan-button secondary">
+                Choose Plan
+            </button>
+        </div>
+
+        <!-- Card 2: Pro / Recommended Plan (Highlighted) -->
+        <div class="price-card pro-plan highlighted">
+            <div class="tag">Most Popular</div>
+            <h2>Creator Pro</h2>
+            <p class="plan-desc">Best for professionals</p>
+            <p class="price-value">₹3,999<span class="price-period">/mo</span></p>
+            <ul class="feature-list">
+                <li class="check">
+                    <i class="fas fa-check"></i>
+                    <p><span class="semibold">Full Access to All 5 Tool Categories</span></p>
+                </li>
+                <li class="check">
+                    <i class="fas fa-check"></i>
+                    <p>Premium AI Courses (All Unlocked)</p>
+                </li>
+                <li class="check">
+                    <i class="fas fa-check"></i>
+                    <p><span class="semibold">Unlimited</span> AI Generations</p>
+                </li>
+                <li class="check">
+                    <i class="fas fa-check"></i>
+                    <p>Exclusive ML Lab Access</p>
+                </li>
+            </ul>
+            <button onclick="alert('Proceeding to Checkout for Creator Pro Plan...')" class="plan-button primary">
+                Go Pro
+            </button>
+        </div>
+
+        <!-- Card 3: Enterprise / Team Plan -->
+        <div class="price-card enterprise-plan">
+            <h2>Enterprise</h2>
+            <p class="plan-desc">For teams and organizations</p>
+            <p class="price-value">₹16,999<span class="price-period">/mo</span></p>
+            <ul class="feature-list">
+                <li class="check">
+                    <i class="fas fa-check"></i>
+                    <p>All Creator Pro features</p>
+                </li>
+                <li class="check">
+                    <i class="fas fa-check"></i>
+                    <p><span class="semibold">Up to 10 Team Members</span></p>
+                </li>
+                <li class="check">
+                    <i class="fas fa-check"></i>
+                    <p>Dedicated Private ML Instance</p>
+                </li>
+                <li class="check">
+                    <i class="fas fa-check"></i>
+                    <p>Custom Support and Billing</p>
+                </li>
+            </ul>
+            <button onclick="alert('Contacting Sales for Enterprise Plan...')" class="plan-button tertiary">
+                Contact Sales
+            </button>
+        </div>
+
+    </div>
+
+    <!-- Trial Offer/Bottom Text -->
+    <div class="footer-text">
+        <p>All plans come with a 7-day free trial. Cancel anytime.</p>
+    </div>
+
+</body>
+</html>
